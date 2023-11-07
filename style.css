@@ -1,0 +1,133 @@
+/* CSS Responsif */
+@media (max-width: 768px) {
+    /* Ubah ukuran font header */
+    header h1 {
+        font-size: 24px;
+    }
+    
+    /* Atur lebar gambar profil */
+    #imga img {
+        height: 100px;
+    }
+    
+    /* Atur ukuran font dan margin di bagian About */
+    #about h2 {
+        font-size: 24px;
+    }
+    #about p {
+        font-size: 16px;
+        margin: 10px;
+    }
+    
+    /* Atur lebar gambar portfolio */
+    .portfolio-item img {
+        width: 100%;
+    }
+}
+/* ------------------------------------------------------------------- */
+.navbar {  
+    background-color: #333;
+    padding:  15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    max-width: 100%;
+    margin-bottom: 20px; 
+
+    
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline; /*agar tulisan horizontal     */
+    margin-right: 20px;
+}
+/* ============================== */
+
+
+
+#imga img {
+
+    border-radius: 50%;
+    width: 150px; /* Sesuaikan ukuran gambar yang Anda inginkan */
+    display: block;
+    margin: 20px auto;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10%;
+    
+}
+/* --------------------------------------------------------------------------------- */
+
+.navbar a {
+    text-decoration: none;
+    color: #fff; /* Warna teks pada navbar */
+}
+
+.navbar a:hover {
+    color: #f2d7bd; /* Warna teks saat dihover */
+}
+body {
+    text-align: center;
+}
+
+header {
+    text-align: left;
+}
+
+section {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+/* 
+footer {
+    text-align: center;
+    background-color: #333;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+} */
+
+#about{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    background-color: #fff;
+    text-align: center;
+
+}
+/* ----------------------------------------------------------------------------------- */
+
+#portfolio {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+div.portfolio-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+/* ========================================================================================= */
+#contact {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+/* ======================================================================================== */
